@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center !important;
+  height: 100vh;
+}
+
+.Card {
+  max-width: 25%;
+}
+
+.Card_Content {
+  background-color: #23252c;
+  color: white;
+}
+
+.Card_photo {
+  height: 15rem;
+}
+
+.body1 {
+  text-align: start;
+}
+.body2 {
+  text-align: start;
+}
+
+.button_linkedin {
+  background-color: #0a66c2;
+  width: 100%;
+}
+
+.button_email {
+  width: 100%;
+  background-color: white !important;
+  color: #23252c !important;
+}
+
+.backgroundArrowLeft {
+  width: 0;
+  height: 0;
+  border-left: 60rem solid transparent;
+  border-right: 60rem solid transparent;
+  border-top: 60rem solid #dadada;
+  position: fixed;
+  top: -50%;
+  right: 65%;
+  transform: rotate(145deg);
+  z-index: -5;
+}
+
+.backgroundArrowRight {
+  width: 0;
+  height: 0;
+  border-left: 80rem solid transparent;
+  border-right: 60rem solid transparent;
+  border-top: 70rem solid black;
+  position: fixed;
+  top: -50%;
+  right: -55%;
+  transform: rotate(-15deg);
+  z-index: -10;
+}
+
+.Actions {
+  background-color: #161619;
+}
